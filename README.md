@@ -12,3 +12,8 @@ A Claude Code plugin that provides quality assurance tools for code repositories
 Load the plugin locally from the repository root:
 ```bash
 claude --plugin-dir .
+```
+
+/qa-kit:summarize-changes
+
+Ask Claude to review recent code changes to invoke the code-reviewer agent.
